@@ -8,13 +8,12 @@ This Go code provides a client for interacting with Vodafone Egypt's services, i
 * **Promotion Retrieval:** Fetches available promotions for a given user.
 
 ## TODO
-- [ ] **Dece CLI interface**
+- [ ] **Decent CLI interface**
 - [ ] **Usage Consumption Reporting:** Retrieves detailed usage consumption information, including remaining balance, data plan details, and renewal information.
 
 ## Configuration
 
-* **Username and Password:** Replace `YOUR_VODAFONE_USERNAME` and `YOUR_VODAFONE_PASSWORD`
-in the `generateAuthentication` function with your actual Vodafone credentials.
+* **Username and Password:** Insert `YOUR_VODAFONE_USERNAME` and `YOUR_VODAFONE_PASSWORD` in the `generateAuthentication` function with your actual Vodafone credentials.
 
 ## Dependencies
 
