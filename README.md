@@ -15,16 +15,12 @@ This Go code provides a client for interacting with Vodafone Egypt's services, i
 
 * **Username and Password:** Insert `YOUR_VODAFONE_USERNAME` and `YOUR_VODAFONE_PASSWORD` in the `generateAuthentication` function with your actual Vodafone credentials.
 
-## Dependencies
-
-This code uses the standard Go libraries, including `encoding/json`, `fmt`, `io`, `net/http`, `net/url`, `strconv`, `strings`, and `time`.  No external dependencies are required.
-
 ## Installation
 
 1. Ensure you have Go installed on your system.
-2. Clone this repository: `git clone https://github.com/YOUR_USERNAME/vodafone-go.git` (replace with your repository URL)
+2. Clone this repository: `git clone https://github.com/kqvanity/vodafone-go.git` (replace with your repository URL)
 3. Navigate to the project directory: `cd vodafone-go`
-4. Run the code: `go run vodafone.go` (Work Under Construction 🏗️)
+4. Run the code: `go run vodafone.go` (Work still under construction 🏗️)
 
 ## Contributing
 
