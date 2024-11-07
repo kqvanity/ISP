@@ -15,7 +15,8 @@ var (
 	httpClient = &http.Client{}
 )
 
-func generateAuth(username string, password string) (string, error) {
+// GenerateAuth generates an authentication token for the user
+func (u *User) GenerateAuth(username string, password string) (string, error) {
 	urlToken := "https://mobile.vodafone.com.eg/auth/realms/vf-realm/protocol/openid-connect/token"
 	dataToken := map[string]string{
 		"username":      username,
@@ -109,7 +110,7 @@ func GetPromotion(username string) error {
 	return nil
 }
 
-func usageConsumption(token string, phoneNumber string) error {
+func GetUserDataConsumption(token string, phoneNumber string) error {
 	urlUsage := "https://web.vodafone.com.eg/services/dxl/usage/usageConsumptionReport?@type=adslWallet&relatedParty.id=20504356294"
 
 	headersUsage := map[string]string{
